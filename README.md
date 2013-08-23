@@ -10,7 +10,7 @@ Powerful, easy to use web scraping framework, built on top of request, cheerio, 
 npm install scrapejs
 
 # Samples
-
+```javascript
 var sp = require('scrapejs').init({
 	cc: 2, // up to 2 concurrent requests
 	delay: 5 * 1000 // delay 5 seconds before each request
@@ -30,4 +30,4 @@ sp.load('https://www.google.com/search?q=scraping')
 	console.log(err);
 })
 
-
+```
