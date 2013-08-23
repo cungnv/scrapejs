@@ -1,0 +1,31 @@
+{
+  "name": "scrapejs",
+  "description": "a web scraping framework for node.js",  
+  "author": "Cung Nguyen <cungjava2000@gmail.com>", 
+  
+   "tags": [
+    "web scraping",
+	"web scraper",
+    "spider",
+    "crawler",
+    "bot"
+  ],
+  "version": "1.0.0",  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cungnv/scrapejs.git"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "dependencies": {
+    "request": "latest",
+	"cheerio": "latest",
+    "async": "latest",
+	"q": "latest",
+	"underscore": "latest",
+	"xpath": "latest",
+	"xmldom": "latest"
+  }
+}
