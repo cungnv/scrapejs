@@ -30,7 +30,7 @@ function Scraper(options){
 		timeout:60*000, 
 		proxy: false,
 		proxies:[],
-		proxy_file: path.resolve(__dirname, 'proxy.txt'), 
+		proxy_file: path.join(__dirname, '../proxy.txt'), 
 		proxy_auth:'',		
 		cache: false,
 		dir: path.join(__dirname, "../")
